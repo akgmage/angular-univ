@@ -12,4 +12,7 @@ export class AppComponent {
   onButtonClick() {
     alert('hello world');
   }
+  onKeyUp(newTitle: string) {
+    this.data.title = newTitle;
+  }
 }
