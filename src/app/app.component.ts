@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   data = {
     title: 'angular-univ',
+    description: 'hi my name is angu',
   };
   onButtonClick() {
     alert('hello world');
