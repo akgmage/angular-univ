@@ -9,4 +9,7 @@ export class AppComponent {
   data = {
     title: 'angular-univ',
   };
+  onButtonClick() {
+    alert('hello world');
+  }
 }
